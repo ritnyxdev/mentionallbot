@@ -12,17 +12,5 @@ export class CONFIG {
         }
         throw new Error('Bot Token not found!');
     }
-    _ADMIN_ID() {
-        if (process.env.ADMIN_ID) {
-            return process.env.ADMIN_ID;
-        }
-        throw new Error('Admin Id not found!');
-    }
-    _CHANNEL_ID() {
-        if (process.env.CHANNEL_ID) {
-            return process.env.CHANNEL_ID;
-        }
-        throw new Error('Channel Id Not Found!');
-    }
 }
 //# sourceMappingURL=dotenv.config.js.map
