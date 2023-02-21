@@ -3,8 +3,6 @@ dotenv.config();
 export class CONFIG {
     constructor() {
         this.BOT_TOKEN = this._BOT_TOKEN();
-        this.ADMIN_ID = this._ADMIN_ID();
-        this.CHANNEL_ID = this._CHANNEL_ID();
     }
     _BOT_TOKEN() {
         if (process.env.BOT_TOKEN) {
