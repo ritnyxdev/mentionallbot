@@ -7,7 +7,7 @@
     "scripts": {
         "prebuild": "rimraf ./build",
         "dev": "npx nodemon",
-        "build": "npm run prebuild && npx tsc",
+        "build": "npx tsc",
         "start": "npm run build && node build/main",
         "lint": "npx eslint ./src",
         "format": "npx eslint ./src --fix"
